@@ -77,7 +77,7 @@ inquirer
 
             ## Testing Instructions 
 
-            ${response.instructions}
+            ${response.test}
             
             
             
