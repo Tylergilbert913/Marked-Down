@@ -78,6 +78,18 @@ inquirer
             ## Testing Instructions 
 
             ${response.test}
+
+            ## License
+
+            ${response.license}
+
+            ## Github Username
+ 
+            ${response.github}
+
+            ## Email
+
+            ${response.email}
             
             
             
