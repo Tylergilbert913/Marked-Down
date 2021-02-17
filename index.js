@@ -90,6 +90,7 @@ inquirer
             ## Email
 
             ${response.email}
+            `
             
             
             
