@@ -2,26 +2,26 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 inquirer
     .prompt([
-        // {
-        //     type: 'input',
-        //     message: 'What is your project title?',
-        //     name: 'title',
-        // },
-        // {
-        //     type: 'input',
-        //     message: 'description of your project',
-        //     name: 'description',
-        // },
-        // {
-        //     type: 'input',
-        //     message: 'installation instructions',
-        //     name: 'installation',
-        // },
-        // {
-        //     type: 'input',
-        //     message: 'usage information',
-        //     name: 'usage',
-        // },
+        {
+            type: 'input',
+            message: 'What is your project title?',
+            name: 'title',
+        },
+        {
+            type: 'input',
+            message: 'description of your project',
+            name: 'description',
+        },
+        {
+            type: 'input',
+            message: 'installation instructions',
+            name: 'installation',
+        },
+        {
+            type: 'input',
+            message: 'usage information',
+            name: 'usage',
+        },
         {
             type: 'input',
             message: 'contribution guidelines?',
