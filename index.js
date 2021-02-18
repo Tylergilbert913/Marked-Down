@@ -9,59 +9,71 @@ inquirer
         },
         {
             type: 'input',
-            message: 'description of your project',
+            message: 'Description of your project:',
             name: 'description',
         },
         {
             type: 'input',
-            message: 'installation instructions',
+            message: 'Installation instructions:',
             name: 'installation',
         },
         {
             type: 'input',
-            message: 'usage information',
+            message: 'Usage information:',
             name: 'usage',
         },
         {
             type: 'input',
-            message: 'contribution guidelines?',
+            message: 'Contribution guidelines:',
             name: 'contributing',
         },
         {
             type: 'input',
-            message: 'test insructions',
+            message: 'Test insructions:',
             name: 'test',
         },
         {
             type: 'list',
-            message: 'license?',
+            message: 'License:',
             name: 'license',
             choices: [
                 "MIT",
                 "Apache",
-                "GPL"
+                "GPL",
+                "None"
             ]
         },
         {
             type: 'input',
-            message: 'github username',
+            message: 'Github username:',
             name: 'github',
         },
         {
             type: 'input',
-            message: 'email',
+            message: 'Email:',
             name: 'email',
         },
     ]).then((response) =>
         fs.writeFile(
-            "./README.md" ,
+            "README.md" ,
 
+            // TODO: Figure out how to make everything the rigth size font and create clickable links in the table of contents
+            
             `
-            # ${response.title}
+            ${response.title}
 
             ## Description 
 
             ${response.description}
+
+            ## Table of Contents
+
+            * [Installation] ${response.installation}
+            * [Usage] ${response.usage}
+            * [Contributors] ${response.contributing}
+            * [Testing Instructions] ${response.test}
+            * [License] ${response.license}
+
 
             ## Installation Instructions
 
@@ -105,3 +117,4 @@ inquirer
 
         )
     );
+
