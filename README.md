@@ -1,43 +1,43 @@
 
-# NAME
+# Marked Down
 
 ## Description 
 
-NAME
+This is a README.md tempelate that can be easily created ina few moments
 
 ## Table of Contents
 
-* [Installation] NAME
-* [Usage] NAME
-* [Contributors] NAME
-* [Testing Instructions] NAME
-* [License] MIT
+* [Installation] Npm install inquirer
+* [Usage] Fill our the statements and answers to complete your README.md
+* [Contributors] None
+* [Testing] None
+* [License] Apache
 
 
 ## Installation Instructions
 
-NAME
+Npm install inquirer
 
 ## Usage Information 
 
-NAME
+Fill our the statements and answers to complete your README.md
 
 ## Contributors 
 
-NAME
+None
 
 ## Testing Instructions 
 
-NAME
+None
 
 ## License
 
-MIT
+Apache
 
 ## Github Username
 
-NAME
+https://github.com/Tylergilbert913
 
 ## Email
 
-NAME
+Tyler.gilbert913@gmail.com
