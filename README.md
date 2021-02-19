@@ -1,44 +1,43 @@
 
-            name
+# NAME
 
-            ## Description 
+## Description 
 
-            name
+NAME
 
-            ## Table of Contents
+## Table of Contents
 
-            * [Installation] name
-            * [Usage] nam
-            * [Contributors] name
-            * [Testing Instructions] name
-            * [License] GPL
+* [Installation] NAME
+* [Usage] NAME
+* [Contributors] NAME
+* [Testing Instructions] NAME
+* [License] MIT
 
 
-            ## Installation Instructions
+## Installation Instructions
 
-            name
+NAME
 
-            ## Usage Information 
+## Usage Information 
 
-            nam
+NAME
 
-            ## Contributors 
+## Contributors 
 
-            name
+NAME
 
-            ## Testing Instructions 
+## Testing Instructions 
 
-            name
+NAME
 
-            ## License
+## License
 
-            GPL
+MIT
 
-            ## Github Username
- 
-            name
+## Github Username
 
-            ## Email
+NAME
 
-            name
-            
+## Email
+
+NAME

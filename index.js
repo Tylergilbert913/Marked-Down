@@ -58,51 +58,51 @@ inquirer
             "README.md" ,
 
             // TODO: Figure out how to make everything the rigth size font and create clickable links in the table of contents
-            
-            `
-            ${response.title}
 
-            ## Description 
+`
+# ${response.title}
 
-            ${response.description}
+## Description 
 
-            ## Table of Contents
+${response.description}
 
-            * [Installation] ${response.installation}
-            * [Usage] ${response.usage}
-            * [Contributors] ${response.contributing}
-            * [Testing Instructions] ${response.test}
-            * [License] ${response.license}
+## Table of Contents
+
+* [Installation] ${response.installation}
+* [Usage] ${response.usage}
+* [Contributors] ${response.contributing}
+* [Testing] ${response.test}
+* [License] ${response.license}
 
 
-            ## Installation Instructions
+## Installation Instructions
 
-            ${response.installation}
+${response.installation}
 
-            ## Usage Information 
+## Usage Information 
 
-            ${response.usage}
+${response.usage}
 
-            ## Contributors 
+## Contributors 
 
-            ${response.contributing}
+${response.contributing}
 
-            ## Testing Instructions 
+## Testing Instructions 
 
-            ${response.test}
+${response.test}
 
-            ## License
+## License
 
-            ${response.license}
+${response.license}
 
-            ## Github Username
- 
-            ${response.github}
+## Github Username
 
-            ## Email
+${response.github}
 
-            ${response.email}
-            `
+## Email
+
+${response.email}
+`
             
             
             
