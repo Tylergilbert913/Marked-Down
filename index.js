@@ -55,11 +55,11 @@ inquirer
         },
     ]).then((response) =>
         fs.writeFile(
-            "README.md" ,
+            "README.md",
 
             // TODO: Figure out how to make everything the rigth size font and create clickable links in the table of contents
 
-`
+            `
 # ${response.title}
 
 ## Description 
@@ -103,18 +103,19 @@ ${response.github}
 
 ${response.email}
 `
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            ,(err) => err ? console.log("There was an error!") : console.log("Successfully appended to file!")
+
+
+
+
+
+
+
+
+
+            , (err) => err ? console.log("There was an error!") : console.log("Successfully appended to file!")
 
 
         )
     );
+
 
