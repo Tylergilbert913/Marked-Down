@@ -70,9 +70,9 @@ ${response.description}
 
 ## Table of Contents
 
-* [Installation] (#installation)
-* [Usage] (#usage)
-* [Contributors] (#contributors)
+* [Installation] ${response.installation}
+* [Usage] ${response.usage}
+* [Contributors] ${response.contributing}
 * [Testing] ${response.test}
 * [License] ${response.license}
 
