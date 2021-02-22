@@ -73,11 +73,14 @@ ${response.description}
 ## Table of Contents
 
 * [Installation] ${response.installation}
-* [Usage] ${response.usage}
-* [Contributors] ${response.contributing}
-* [Testing] ${response.test}
-* [License] ${response.license}
 
+* [Usage] ${response.usage}
+
+* [Contributors] ${response.contributing}
+
+* [Testing] ${response.test}
+
+* [License] ${response.license}
 
 ## Installation Instructions
 
@@ -109,17 +112,8 @@ ${response.email}
 `
 
 
-
-
-
-
-
-
-
             , (err) => err ? console.log("There was an error!") : console.log("Successfully appended to file!")
 
 
         )
     );
-
-
