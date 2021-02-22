@@ -5,15 +5,15 @@
 
 ## Description 
 
-I've created a README.md tempelate, that is created through node.js and using your terminal.
+This was created as a template for a README.md and is easily created by answering the statements and quesitons within the terminal.
 
 ## Table of Contents
 
-* [Installation] NPM install
-* [Usage] Fill out the statements and questions within the terminal and the README.md will then populate in your README.md file.
-* [Contributors] NONE
-* [Testing] NPM run test
-* [License] MIT
+* [Installation] (#installation)
+* [Usage] (#usage)
+* [Contributors] (#contributing)
+* [Testing] (#test)
+* [License] (#license)
 
 
 ## Installation Instructions
@@ -22,7 +22,7 @@ NPM install
 
 ## Usage Information 
 
-Fill out the statements and questions within the terminal and the README.md will then populate in your README.md file.
+Answer all the questions ans statements.
 
 ## Contributors 
 
@@ -38,7 +38,7 @@ MIT
 
 ## Github Username
 
-Tylergilbert913
+https://github.com/Tylergilbert913
 
 ## Email
 
