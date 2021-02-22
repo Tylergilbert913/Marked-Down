@@ -62,7 +62,7 @@ inquirer
             `
 # ${response.title}
 
-![License](https://img.shields.io/badge/License-${response.license}-red)
+![License](https://img.shields.io/badge/License-${response.license}-red) (https://www.oracle.com/downloads/licenses/mit-license.html)
 
 ## Description 
 
