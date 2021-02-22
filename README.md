@@ -1,43 +1,45 @@
 
-# home
+# Marked Down
+
+![License](https://img.shields.io/badge/License-MIT-red)
 
 ## Description 
 
-home
+I've created a README.md tempelate, that is created through node.js and using your terminal.
 
 ## Table of Contents
 
-* (#Installation) home
-* [Usage] home
-* [Contributors] home
-* [Testing] home
-* [License] Apache
+* [Installation] NPM install
+* [Usage] Fill out the statements and questions within the terminal and the README.md will then populate in your README.md file.
+* [Contributors] NONE
+* [Testing] NPM run test
+* [License] MIT
 
 
 ## Installation Instructions
 
-home
+NPM install
 
 ## Usage Information 
 
-home
+Fill out the statements and questions within the terminal and the README.md will then populate in your README.md file.
 
 ## Contributors 
 
-home
+NONE
 
 ## Testing Instructions 
 
-home
+NPM run test
 
 ## License
 
-Apache
+MIT
 
 ## Github Username
 
-home
+Tylergilbert913
 
 ## Email
 
-home
+Tyler.gilbert913@gmail.com
