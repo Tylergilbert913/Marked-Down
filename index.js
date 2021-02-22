@@ -70,11 +70,11 @@ ${response.description}
 
 ## Table of Contents
 
-* [Installation] ${response.installation}
-* [Usage] ${response.usage}
-* [Contributors] ${response.contributing}
-* [Testing] ${response.test}
-* [License] ${response.license}
+* [Installation] (#installation)
+* [Usage] (#usage)
+* [Contributors] (#contributing)
+* [Testing] (#test)
+* [License] (#license)
 
 
 ## Installation Instructions
