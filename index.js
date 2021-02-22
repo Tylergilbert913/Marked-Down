@@ -62,15 +62,17 @@ inquirer
             `
 # ${response.title}
 
+![License](https://img.shields.io/badge/License-${reply.license}-red)
+
 ## Description 
 
 ${response.description}
 
 ## Table of Contents
 
-* [Installation] ${response.installation}
-* [Usage] ${response.usage}
-* [Contributors] ${response.contributing}
+* [Installation] (#installation)
+* [Usage] (#usage)
+* [Contributors] (#contributors)
 * [Testing] ${response.test}
 * [License] ${response.license}
 
