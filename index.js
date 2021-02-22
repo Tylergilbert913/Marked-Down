@@ -1,3 +1,5 @@
+const util = require("util");
+const generateMarkdown = require("generateMarkdown");
 const fs = require('fs');
 const inquirer = require('inquirer');
 inquirer
@@ -62,7 +64,7 @@ inquirer
             `
 # ${response.title}
 
-![License](https://img.shields.io/badge/License-${response.license}-red) (https://www.oracle.com/downloads/licenses/mit-license.html)
+![License](https://img.shields.io/badge/License-${response.license}-red)
 
 ## Description 
 
@@ -70,11 +72,11 @@ ${response.description}
 
 ## Table of Contents
 
-* [Installation] (#installation)
-* [Usage] (#usage)
-* [Contributors] (#contributing)
-* [Testing] (#test)
-* [License] (#license)
+* [Installation] ${response.installation}
+* [Usage] ${response.usage}
+* [Contributors] ${response.contributing}
+* [Testing] ${response.test}
+* [License] ${response.license}
 
 
 ## Installation Instructions
