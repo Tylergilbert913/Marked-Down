@@ -1,5 +1,4 @@
-const util = require("util");
-const generateMarkdown = require("generateMarkdown");
+
 const fs = require('fs');
 const inquirer = require('inquirer');
 inquirer
@@ -64,7 +63,7 @@ inquirer
             `
 # ${response.title}
 
-![License](https://img.shields.io/badge/License-${response.license}-red)
+![License](https://img.shields.io/badge/License-${response.license}-red)(https://opensource.org/licenses/MIT)
 
 ## Description 
 
