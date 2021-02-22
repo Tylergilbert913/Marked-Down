@@ -50,7 +50,7 @@ inquirer
         },
         {
             type: 'input',
-            message: 'Email:',
+            message: 'Email me at:',
             name: 'email',
         },
     ]).then((response) =>
