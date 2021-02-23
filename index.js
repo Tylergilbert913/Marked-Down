@@ -1,8 +1,9 @@
 
 const fs = require('fs');
 const inquirer = require('inquirer');
-inquirer
-    .prompt([
+const generateMarkdown = require("./generateMarkdown.js");
+
+const questions = ([
         {
             type: 'input',
             message: 'What is your project title?',
@@ -54,65 +55,22 @@ inquirer
             message: 'Email me at:',
             name: 'email',
         },
-    ]).then((response) =>
-        fs.writeFile(
-            "README.md",
+    ]);
 
-            // TODO: Figure out how to make everything the rigth size font and create clickable links in the table of contents
+    // TODO: Create a function to write README file
+function writeToFile(fileName, response) { 
+    fs.writeFile(fileName, response, err => err ? console.error(err) : console.log('Success!'));
+}
 
-            `
-# ${response.title}
+// TODO: Create a function to initialize app
+function init() { 
+    inquirer
+        .prompt(questions)
+        .then((response) => {
+            const contents = generateMarkdown(response);
+            writeToFile("README.md", contents);
+        });
+}
 
-![License](https://img.shields.io/badge/License-${response.license}-red)(https://opensource.org/licenses/MIT)
-
-## Description 
-
-${response.description}
-
-## Table of Contents
-
-* [Installation] ${response.installation}
-
-* [Usage] ${response.usage}
-
-* [Contributors] ${response.contributing}
-
-* [Testing] ${response.test}
-
-* [License] ${response.license}
-
-## Installation Instructions
-
-${response.installation}
-
-## Usage Information 
-
-${response.usage}
-
-## Contributors 
-
-${response.contributing}
-
-## Testing Instructions 
-
-${response.test}
-
-## License
-
-${response.license}
-
-## Github Username
-
-${response.github}
-
-## Email
-
-${response.email}
-`
-
-
-            , (err) => err ? console.log("There was an error!") : console.log("Successfully appended to file!")
-
-
-        )
-    );
+// Function call to initialize app
+init();
