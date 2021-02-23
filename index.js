@@ -3,7 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require("./generateMarkdown.js");
 
-const questions = ([
+const questions = [
         {
             type: 'input',
             message: 'What is your project title?',
@@ -55,7 +55,7 @@ const questions = ([
             message: 'Email me at:',
             name: 'email',
         },
-    ]);
+    ];
 
     // TODO: Create a function to write README file
 function writeToFile(fileName, response) { 

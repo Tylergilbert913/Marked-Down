@@ -2,85 +2,85 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
     if (license === "MIT") {
-      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+        return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
     }
     else if (license === "Apache") {
-      return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+        return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
     }
     else if (license === "GPL") {
-      return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+        return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
     }
-  }
-  
-  // TODO: Create a function that returns the license link
-  // If there is no license, return an empty string
-  function renderLicenseLink(license) {
-    if (license === "MIT") {
-      return "https://opensource.org/licenses/MIT"; 
-    }
-    else if (license === "Apache") {
-      return "https://www.apache.org/licenses/LICENSE-2.0";
-    }
-    else if (license === "GPL") {
-      return "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html";
-    }
-  }
-  
-  
-  // TODO: Create a function to generate markdown for README
-  function generateMarkdown(response) {
-    return `
-    # ${response.title}
-    
-    ${renderLicenseBadge(response.license)}
+}
 
-    ${renderLicenseLink(response.license)}
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+function renderLicenseLink(license) {
+    if (license === "MIT") {
+        return "https://opensource.org/licenses/MIT";
+    }
+    else if (license === "Apache") {
+        return "https://www.apache.org/licenses/LICENSE-2.0";
+    }
+    else if (license === "GPL") {
+        return "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html";
+    }
+}
+
+
+// TODO: Create a function to generate markdown for README
+function generateMarkdown(response) {
+    return `
     
-    ## Description 
+# ${response.title}
     
-    ${response.description}
+${renderLicenseBadge(response.license)}
+
+${renderLicenseLink(response.license)}
     
-    ## Table of Contents
+## Description 
     
-    * [Installation](#installation)
+${response.description}
     
-    * [Usage](#usage)
+## Table of Contents
     
-    * [Contributors](#contributing)
+* [Installation](#installation)
     
-    * [Testing](#test)
+* [Usage](#usage)
     
-    * [License](#license
+* [Contributors](#contributing)
     
-    ## Installation Instructions
+* [Testing](#test)
     
-    ${response.installation}
+* [License](#license)
     
-    ## Usage Information 
+## Installation Instructions
     
-    ${response.usage}
+${response.installation}
     
-    ## Contributors 
+## Usage Information 
     
-    ${response.contributing}
+${response.usage}
     
-    ## Testing Instructions 
+## Contributors 
     
-    ${response.test}
+${response.contributing}
     
-    ## License
+## Testing Instructions 
     
-    ${response.license}
+${response.test}
     
-    ## Github Username
+## License
     
-    ${response.github}
+${response.license}
     
-    ## Email
+## Github Username
     
-    ${response.email}
+${response.github}
+    
+## Email
+    
+${response.email}
     `
-  }
-  
-  module.exports = generateMarkdown;
-  
+}
+
+module.exports = generateMarkdown;
