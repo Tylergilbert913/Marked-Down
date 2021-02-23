@@ -1,6 +1,6 @@
 
     
-# name
+# Marked Down
     
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -8,7 +8,7 @@ https://opensource.org/licenses/MIT
     
 ## Description 
     
-name
+This is temeplate created for README.md files. This template is extremly user friendy and only requires the user to answer the statements and questions within the terminal.
     
 ## Table of Contents
     
@@ -20,23 +20,23 @@ name
     
 * [Testing](#test)
     
-* [License](#license
+* [License](#license)
     
 ## Installation Instructions
     
-name
+NPM install
     
 ## Usage Information 
     
-name
+Node index.js, then you fill out the questions and statements to create the users README.md.
     
 ## Contributors 
     
-name
+NONE
     
 ## Testing Instructions 
     
-name
+NONE
     
 ## License
     
@@ -44,9 +44,9 @@ MIT
     
 ## Github Username
     
-name
+https://github.com/Tylergilbert913
     
 ## Email
     
-name
+Tyler.gilbert913@gmail.com
     
