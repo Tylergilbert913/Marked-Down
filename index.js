@@ -1,8 +1,8 @@
-
+// all variables for 
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require("./generateMarkdown.js");
-
+// all questions and statements
 const questions = [
         {
             type: 'input',
